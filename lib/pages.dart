@@ -6,18 +6,18 @@ import 'package:joke_app/screens/splash_screen/splash_screen_view.dart';
 
 final pages = [
   GetPage(
-    name: MyRoutes.splashScreen,
+    name: JokeAppRoutes.splashScreen,
     page: SplashScreen.new,
     binding: SplashScreenBindings(),
   ),
   GetPage(
-    name: MyRoutes.homeScreen,
+    name: JokeAppRoutes.homeScreen,
     page: HomeScreen.new,
     binding: HomeScreenBindings(),
   ),
 ];
 
-class MyRoutes {
+class JokeAppRoutes {
   static const homeScreen = '/home_screen';
   static const splashScreen = '/splash_screen';
 }
