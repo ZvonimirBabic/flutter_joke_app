@@ -1,16 +1,15 @@
-# flutter_joke_app
+# Joke app - Šaljivđija
 
-A new Flutter project.
+This is a flutter application made using GetX as a state management solution.
+Most notable packages:  
+-Alice  
+-Dio  
+-Hive  
+-Flutter_launcher_icons  
+-Flutter_native_splash  
+-Screenutil
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Attribution
+App icon: <a href="https://www.flaticon.com/free-icons/hat" title="hat icons">Hat icons created by Freepik - Flaticon</a>  
+Splash screen animation: <a href="https://cdn.dribbble.com/users/291221/screenshots/2341531/jester.gif" title="Jester">Jester animation created by Fede Cook</a>
