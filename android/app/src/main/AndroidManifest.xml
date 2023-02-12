@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.zvonimirbabic.flutter_joke_app">
    <application
-        android:label="flutter_joke_app"
+        android:label="Flutter Joke App"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
