@@ -43,6 +43,14 @@ flutter_icons:
   adaptive_icon_background: 'assets/icons/jester_icon_background.png'
   adaptive_icon_foreground: 'assets/icons/jester_icon_foreground.png'
 
+  # Configuration for 'flutter_native_splash'
+  # Run splash screen generation with 'flutter pub run flutter_native_splash:create'
+flutter_native_splash:
+  android: true
+  ios: true
+  color: '#F29CB1'
+  image: 'assets/icons/jester_icon.png'
+
 flutter:
   uses-material-design: true
   assets:
