@@ -58,7 +58,7 @@ class JokeApp extends StatelessWidget {
         designSize: const Size(412, 732),
         builder: (_, __) => GetMaterialApp(
           onGenerateTitle: (_) => 'appName'.tr,
-          initialRoute: MyRoutes.splashScreen,
+          initialRoute: JokeAppRoutes.splashScreen,
           initialBinding: InitialBinding(),
           getPages: pages,
           logWriterCallback: loggingWithLogger,

@@ -1,5 +1,6 @@
 import 'package:get/get.dart';
 
+import '../../pages.dart';
 import '../../services/dio_service.dart';
 import '../../services/hive_service.dart';
 import '../../services/logger_service.dart';
@@ -20,6 +21,10 @@ class SplashScreenController extends GetxController {
   @override
   Future<void> onInit() async {
     super.onInit();
+
+    /// Simulate extensive loading
+    await Future.delayed(const Duration(seconds: 3), () {});
+    navigateAfterInit();
   }
 
   ///
@@ -37,4 +42,7 @@ class SplashScreenController extends GetxController {
   ///
   /// METHODS
   ///
+  void navigateAfterInit() {
+    Get.offAllNamed(JokeAppRoutes.homeScreen);
+  }
 }
