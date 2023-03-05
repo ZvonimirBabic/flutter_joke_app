@@ -7,7 +7,7 @@ final lightTheme = ThemeData(
   colorScheme: ColorScheme.fromSwatch(
     primarySwatch: Colors.indigo,
   ),
-  scaffoldBackgroundColor: JokeAppColors.white,
+  scaffoldBackgroundColor: JokeAppColors.jokeAppPinkBackground,
   textTheme: GoogleFonts.robotoTextTheme(),
   cardTheme: const CardTheme(
     color: JokeAppColors.white,
